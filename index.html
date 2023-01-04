@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://fullstack.edu.vn/favicon/favicon_32x32.png" type="image/x-icon">
+    <!-- Grid library -->
+    <!-- <link rel="stylesheet" href="./assets/css/grid.css"> -->
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
     <title>F8 THE BAND</title>
 </head>
+
 <body>
     <div id="main">
         <div id="header">
@@ -19,7 +24,7 @@
                 <li><a href="#tour">Tour</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li>
-                    <a href="">
+                    <a href="#">
                         More
                         <i class="nav-arrow-down ti-angle-down"></i>
                     </a>
@@ -34,6 +39,9 @@
             <!-- Begin search -->
             <div class="search-btn">
                 <i class="search-icon ti-search"></i>
+            </div>
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="menu-icon ti-menu"></i>
             </div>
             <!-- End search -->
         </div>
@@ -69,15 +77,15 @@
                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
                 <div class="row member-list">
-                    <div class="col col-third text-center">
+                    <div class="col col-third s-col-full mt-32 text-center">
                         <p class="member-name">Name</p>
                         <img src="./assets/img/bandmember.jpg" alt="Name" class="member-avt">
                     </div>
-                    <div class="col col-third text-center">
+                    <div class="col col-third s-col-full mt-32 text-center">
                         <p class="member-name">Name</p>
                         <img src="./assets/img/bandmember.jpg" alt="Name" class="member-avt">
                     </div>
-                    <div class="col col-third text-center">
+                    <div class=" col col-third s-col-full mt-32 text-center">
                         <p class="member-name">Name</p>
                         <img src="./assets/img/bandmember.jpg" alt="Name" class="member-avt">
                     </div>
@@ -96,34 +104,34 @@
                     </ul>
                     <!-- Tour -->
                     <div class="row place-list">
-                        <div class="col col-third">
+                        <div class="col col-third s-col-full mt-16">
                             <img src="./assets/img/newyork_tour.jpg" alt="" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">New York </h3>
                                 <p class="place-time"> Fri 27 Nov 2016 </p>
                                 <p class="place-decription"> Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
-                                <button class="btn js-buy-ticket"> Buy Tickets </button>
+                                <button class="btn js-buy-ticket s-full-width"> Buy Tickets </button>
                             </div>
                         </div>
-                        <div class="col col-third">
+                        <div class="col col-third s-col-full mt-16">
                             <img src="./assets/img/paris_tour.jpg" alt="" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">Paris</h3>
                                 <p class="place-time"> Sat 28 Nov 2016 </p>
                                 <p class="place-decription"> Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
-                                <button class="btn js-buy-ticket"> Buy Tickets </button>
+                                <button class="btn js-buy-ticket s-full-width"> Buy Tickets </button>
                             </div>
                         </div>
-                        <div class="col col-third">
+                        <div class="col col-third s-col-full mt-16">
                             <img src="./assets/img/sanfran_tour.jpg" alt="" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">San Francisco</h3>
                                 <p class="place-time"> Sun 29 Nov 2016 </p>
                                 <p class="place-decription"> Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
-                                <button class="btn js-buy-ticket"> Buy Tickets </button>
+                                <button class="btn js-buy-ticket s-full-width"> Buy Tickets </button>
                             </div>
                         </div>
                     </div>
@@ -131,32 +139,33 @@
             </div>
             <!-- End Tour section -->
             <!-- Begin Contact section -->
-            <div id="contact"class="content-section">
+            <div id="contact" class="content-section">
                 <h2 class="section-heading">CONTACT</h2>
                 <p class="section-sub-heading"> Fan?Drop a note!</p>
                 <div class="row contact-content">
-                    <div class="col col-half contact-info">
+                    <div class="col col-half s-col-full contact-info">
                         <p><i class="ti-location-pin "></i> Chicago, US</p>
-                        <p><i class="ti-mobile "></i> Phone: +00 151515</p>
-                        <p> <i class="ti-email "></i> Email: mail@mail.com</p>
+                        <p><i class="ti-mobile "></i> Phone: <a href="tel: +33 156457"> +33 156457 </a> </p>
+                        <p> <i class="ti-email "></i> Email: <a href="mailto:pndt2410@gmail.com"> pndt2410@gmail.com </a></p>
                     </div>
-                    <div class="col col-half contact-form">
+                    <div class="col col-half s-col-full contact-form">
                         <form action="">
                             <div class="row">
-                                <div class="col col-half">
+                                <div class="col col-half s-col-full">
                                     <input type="text" name="name" required class="form-control" placeholder="Name">
                                 </div>
-                                <div class="col col-half">
+                                <div class="col col-half s-col-full s-mt-8">
                                     <input type="email" name="email" required class="form-control" placeholder="Email">
                                 </div>
                             </div>
                             <div class="row mt-8">
                                 <div class="col col-full">
-                                    <input type="text" name="message" required class="form-control" placeholder="Message">
+                                    <input type="text" name="message" required class="form-control"
+                                        placeholder="Message">
                                 </div>
                             </div>
-                            <input class="btn pull-right mt-16" type="submit" value="SEND">
-                        </form> 
+                            <input class="btn pull-right contact-submit-btn s-full-width mt-16" type="submit" value="SEND">
+                        </form>
                     </div>
                 </div>
             </div>
@@ -186,9 +195,11 @@
                     <i class="ti-linkedin"></i>
                 </a>
             </div>
-            <p class="copyright"> Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+            <p class="copyright"> Powered by <a href="https://www.w3schools.com/w3css/default.asp"
+                    target="_blank">w3.css</a></p>
         </div>
     </div>
+    <!-- Thông báo khi click nào nút buy tickets -->
     <div class="modal js-modal">
         <div class="modal-container js-modal-container">
             <div class="modal-close js-modal-close">
@@ -219,10 +230,17 @@
     <script>
         // khởi tạo biến lấy các phần tử element của mục buy ticket
         const buyBtns = document.querySelectorAll('.js-buy-ticket');
+
         const modal = document.querySelector(".js-modal");
         const modalContainer = document.querySelector('.js-modal-container');
         const closeBtns = document.querySelectorAll('.js-modal-close')
         const payBtn = document.querySelector('.js-pay')
+        var header = document.getElementById('header');
+        var headerHeight = header.clientHeight
+        const mobileMenu = document.getElementById('mobile-menu');
+        // Lấy tất cả phần tử element a có đường dẫn là #
+        var menuItems = document.querySelectorAll('#nav li a[href *= "#"]')
+
 
         // hàm hiển thị mở cửa sổ buy ticket
         function showBuyTicket() {
@@ -240,23 +258,47 @@
         }
 
         // vòng lặp qua các phần tử button và lắng nghe sự kiện click
-        for(const buyBtn of buyBtns) {
+        for (const buyBtn of buyBtns) {
             buyBtn.addEventListener('click', showBuyTicket)
         }
 
         // vòng lặp qua các nút close và lắng nghe sự kiện click
-        for(const closeBtn of closeBtns) {
+        for (const closeBtn of closeBtns) {
             closeBtn.addEventListener('click', hideBuyTicket)
         }
         // khi click xung quanh vùng modal thì đóng cửa sổ buyticket
         modal.addEventListener('click', hideBuyTicket)
         // loại bỏ hành vi nổi bọt (khi click vao ben trong phần tử con của modal thì hộp thoại buyticket vẫn đóng)
         // tạo biến phần tử con của modal là modalContainer , sau đó tạo hàm và sử dụng biến sự kiện event.stopPropagation
-        modalContainer.addEventListener('click', function(event) {
+        modalContainer.addEventListener('click', function (event) {
             event.stopPropagation()
         })
         // lắng nghe sự kiện click khi click vào nút pay
         payBtn.addEventListener('click', showNotify)
+
+        // Đóng mở mobile menu
+        mobileMenu.onclick = function () {
+            var isClose = header.clientHeight === headerHeight;
+            if (isClose) {
+                header.style.height = 'auto';
+            } else {
+                header.style.height = null;
+            }
+        }
+
+        // Tự động đóng mobile menu khi click
+        for (const menuItem of menuItems) {
+            menuItem.onclick = function () {
+                var isParentMenu = this.nextElementSibling
+                    // kiem tra xem element co la cap thu 2 va co element con co class la subnav
+                    && this.nextElementSibling.classList.contains('subnav')
+                if (isParentMenu) {
+                    event.preventDefault();
+                } else {
+                    header.style.height = null;
+                }
+            }
+        }
     </script>
 </body>
 
